@@ -20,7 +20,7 @@ const mapStateToProps = (state) => {
   };
 };
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   onNucleotideClick: (newIndex) => {
     dispatch(actions.clearSelectedAnnotation());
     dispatch(updateSelection(newIndex));

@@ -8,7 +8,7 @@ import Search from '../Search';
 import Exons from '../Exons';
 import PositionFrom from '../PositionFrom';
 
-const Toolbar = (props) => (
+const Toolbar = props => (
   <div className="toolbar">
 
     <div className="search-panel">

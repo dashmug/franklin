@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-const Search = (props) => (
+const Search = props => (
   <div className="search">
     <label htmlFor="search-help-input">
       <input

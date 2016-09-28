@@ -88,7 +88,7 @@ export const getAnnotationSegments = (
   }
   segments.push([start, to]);
 
-  return segments.map((segment) =>
+  return segments.map(segment =>
     getAnnotationSegmentCoordinates(
       segment[0],
       segment[1],

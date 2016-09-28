@@ -24,7 +24,7 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
     );
 
     dispatch(actions.search(event.target.value, matches.length));
-    dispatch(multiSelect(matches.map((m) => ({
+    dispatch(multiSelect(matches.map(m => ({
       from: m.pos,
       to: (m.pos + len) - 1,
     }))));

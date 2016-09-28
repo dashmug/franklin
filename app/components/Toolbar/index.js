@@ -24,7 +24,7 @@ export const mapStateToProps = (state) => {
   };
 };
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   onPositionFromChange: (event) => {
     let position = parseInt(event.target.value, 10);
 

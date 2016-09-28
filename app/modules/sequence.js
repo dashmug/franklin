@@ -18,7 +18,7 @@ export function setSequence(name, sequence) {
 }
 
 export function loadFile(file) {
-  return dispatch => {
+  return (dispatch) => {
     dispatch({ type: LOAD_FILE });
 
     const reader = new FileReader();
